@@ -1,0 +1,12 @@
+/products/node_modules
+/products/.env
+/products/product_microservice.log
+/shopping/node_modules
+/shopping/.env
+/shopping/shooping_ms.logger
+/user/node_modules
+/user/.env
+/user/user-microservie.log
+/vendor/node_modules
+/vendor/.env
+/vendor/vendor_micorserive.logger

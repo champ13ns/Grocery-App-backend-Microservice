@@ -1,0 +1,22 @@
+{
+  stack: 'MongooseServerSelectionError: getaddrinfo EAI_AGAIN localost\n' +
+    '    at _handleConnectionErrors (/home/sachin/Desktop/Grocery_Backend/products/node_modules/mongoose/lib/connection.js:875:11)\n' +
+    '    at NativeConnection.openUri (/home/sachin/Desktop/Grocery_Backend/products/node_modules/mongoose/lib/connection.js:826:11)\n' +
+    '    at async dbConnection (file:///home/sachin/Desktop/Grocery_Backend/products/src/database/connection.js:6:9)\n' +
+    '    at async startServer (file:///home/sachin/Desktop/Grocery_Backend/products/src/index.js:18:5)',
+  name: 'MongooseServerSelectionError',
+  statusCode: undefined,
+  level: 'error',
+  message: 'DB connection error...'
+}
+{
+  stack: 'MongooseServerSelectionError: getaddrinfo EAI_AGAIN localost\n' +
+    '    at _handleConnectionErrors (/home/sachin/Desktop/Grocery_Backend/products/node_modules/mongoose/lib/connection.js:875:11)\n' +
+    '    at NativeConnection.openUri (/home/sachin/Desktop/Grocery_Backend/products/node_modules/mongoose/lib/connection.js:826:11)\n' +
+    '    at async dbConnection (file:///home/sachin/Desktop/Grocery_Backend/products/src/database/connection.js:6:9)\n' +
+    '    at async startServer (file:///home/sachin/Desktop/Grocery_Backend/products/src/index.js:18:5)',
+  name: 'MongooseServerSelectionError',
+  statusCode: undefined,
+  level: 'error',
+  message: 'DB connection error...'
+}

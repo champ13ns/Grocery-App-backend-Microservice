@@ -1,0 +1,24 @@
+version: '3.8'
+services:
+  mongo:
+    image: mongo
+    container_name: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    environment:
+      - DB_URL=${DB_URL}
+
+  user_ms:  
+    build: .
+    image: user_ms
+    ports:
+      - 8000:9001  
+    depends_on:
+      - mongo
+    env_file:
+      - ./env
+
+volumes:
+  mongo-data:
